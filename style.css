@@ -1,0 +1,102 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #444;
+}
+
+h1{
+    font-size: 2.5rem;
+    margin: 0%;
+}
+
+h2{
+    font-size: 1.5rem;
+    margin: 0%;
+    color: aliceblue;
+}
+
+label{
+    text-align: left;
+    color: whitesmoke;
+}
+
+header{
+    background-color: #333;
+    color: aliceblue;
+    padding: 2.5rem;
+    text-align: center;
+}
+
+input {
+    width: 50%;
+    background-color: #444;
+    color: aliceblue;
+    border-radius: 8px;
+}
+
+#inputsection {
+    margin: 1rem;
+    align-items: center;
+    text-align: center;
+
+}
+
+#displaydata{
+    margin: 1rem;
+}
+
+button{
+    background-color: #444;
+    color: aliceblue;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    border-radius: 10px;
+    padding: 0.6rem 2rem;
+    border: none;
+    outline: none;
+
+}
+
+button:hover{
+    color: aqua;
+}
+
+footer{
+    background-color: #333;
+    border: 1px solid black;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    text-align: center;
+    color: aliceblue;
+}
+
+/*js*/
+
+table{
+    width: 80%;
+    margin: 40px auto;
+    background-color: #333;
+    color: aliceblue;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+
+}
+
+table.list{
+    text-align: center;
+    width: 100%;
+
+}
+
+td{
+    border: 1px solid aliceblue;
+    text-align: left;
+    padding: 8px 15px;
+    color: aliceblue;
+}
+
+

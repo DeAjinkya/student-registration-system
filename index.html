@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="ajinkya">
+    <meta name="Student Registration System" content="Students data">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <title>Student Registration System</title>
+    
+</head>
+<body>
+    <header>
+        <h1>Student Registration System</h1>
+        <p>Easy-to-use Registration System for Students</p>
+    </header>
+    <main>
+        <section id="inputsection">
+            <article>
+                <h2>Form</h2>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <label for="name">Student Name:</label>
+                    <br>
+                    <input type="text" name="name" id="name" required>
+                    <br>
+                    <br>
+                    <label for="id">Student id:</label>
+                    <br>
+                    <input type="text" name="Sid" id="Sid" required>
+                    <br>
+                    <br>
+                    <label for="email">Email id:</label>
+                    <br>
+                    <input type="email" name="email" id="email" required>
+                    <br>
+                    <br>
+                    <label for="contact">Contact no:</label>
+                    <br>
+                    <input type="tel" name="contact" id="contact" required>
+                    <br>
+                    <br>
+                    <button name="submit" value="submit">submit</button>
+                </form>
+            </article>
+
+        </section>
+        <section>
+            <article id="displaydata">
+                <td>
+                    <table class="list" id="Studentrecords">
+                        <thead>
+                            <tr>
+                                <th>Student Name</th>
+                                <th>Student id</th>
+                                <th>Email id</th>
+                                <th>Contact no</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+
+            </article>
+
+        </section>
+
+    </main>
+</body>
+</html>
